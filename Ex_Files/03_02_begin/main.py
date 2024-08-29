@@ -22,6 +22,6 @@ for laureate in laureates:
         pprint(laureate)
         print("============")
         year_date = datetime.strptime(laureate["year"], "%Y")
-        born_date = datetime.strptime(laureate["born"], "%Y-%m-%d")
+        born_date = datetime.strptime(laureate["born"], "%Y-%m-%d")   #this must match the structure of the csv file
         print("age", year_date.year - born_date.year)
         break

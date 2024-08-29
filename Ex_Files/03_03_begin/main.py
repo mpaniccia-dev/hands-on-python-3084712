@@ -2,6 +2,7 @@ import csv
 import json
 from pprint import pprint
 
+#this is a python dictionary (looks like JSON but it's not, yet)
 EINSTEIN = {
     "birthplace": "Germany",
     "name": "Albert",
